@@ -44,14 +44,14 @@
   <script type="text/javascript">
     var datosdeandroid="";
       function myFunction(){
-      var idelement= document.getElementById("id");
-      var idmsn1= document.getElementById("idmsn");
-     datodesdeandroid=	Windows.Android.showToast(idelement,idmsn1);
-     // si queires enviad datos de sde and	Windows.Android.showToast(idelement,idmsn1);
+      var idelement= document.getElementById("id").value;
+      var idmsn1= document.getElementById("idmsn").value;
+     //datodesdeandroid=  Windows.Android.showToast(idelement,idmsn1);
+     // si queires enviad datos de sde and  Windows.Android.showToast(idelement,idmsn1);
     // como recibo datos desde android  en esta  var datodesdeandroid
   
-      	// de androi d  vieen  datos  a  al html5  pue slo ersivo
-      	document.getElementById("datodesdeandroid").innerHTML=datodesdeandroid;
+        // de androi d  vieen  datos  a  al html5  pue slo ersivo
+        document.getElementById("datodesdeandroid").innerHTML=idmsn1;
   
   
       }
